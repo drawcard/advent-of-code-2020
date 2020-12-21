@@ -1,3 +1,13 @@
+/* 
+https://adventofcode.com/2020/day/1
+
+Approach:
+Create an array from all of the input values. 
+Then run them through a function that subtracts each one from 2020 to give a 2nd value. 
+Store those new values in an array and compare with the first set to find two matching values (ie. the only two values that add up to 2020)
+Store these two values in a 3rd array and multiply them.
+*/
+
 // Initialise two arrays
 let inputArray = [
     1864,
